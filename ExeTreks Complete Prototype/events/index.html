@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/style_sheet.css" rel='stylesheet' type='text/css'/>
+    <link href="css/responsive_style.css" rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" href="font_awesome/css/font-awesome.min.css">
+    <script src="js/utilities.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no"/>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>University events app</title>
+  </head>
+
+  <body onload = 'loadEvents()'>
+
+    <!-- University logo -->
+     <div class="uni_logo">
+       <img src="logo.jpg" width="49px" height="49px">
+     </div>
+
+      <ul class="topnav" id="myTopnav">
+        <img class="uni_logo_mobile" id="uni_logo_mobile" src="logo_mobile.gif" width="49px" height="49px">
+        <li class="firstli"></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="helpline.html">Helpline</a></li>
+        <li><a href="market.html">MarketPlace</a></li>
+        <li><a href="travel_tips.html">Travel Tips</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="showResponsiveMenu()">&#9776;</a>
+       </li>
+     </ul>
+
+      <div class="content">
+        <div class="introContainer" id="introContainer"><p class="introText">Instagram@exe.treks</p></div>
+        <div class="panel-header" id="pheader"><h1>Browse Universities</h1></div>
+        <div class="panel-body">
+          <div id="eventContent"></div>
+            <ul class= "list">
+              <li>
+      
+            </ul>
+        </div>
+      </div>
+
+      <div id="footer">
+        <p><a href="http://www.exeter.ac.uk/privacy/">Privacy policy</a></p>
+      </div>
+
+  </body>
+</html>
