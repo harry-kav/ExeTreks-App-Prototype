@@ -1,0 +1,2 @@
+# ExeTreks-App-Prototype
+A project made for an event called Challenges Online. The goal was to, as a team, come up with an idea on the theme of 'pandemics and the environment'. We came up with the idea of an app to help keep students travelling abroad on placement years up to date with travel restrictions, required documentations, and ways of staying safe at their target university. As such, I created this app prototype, as well as a video advertisement.
